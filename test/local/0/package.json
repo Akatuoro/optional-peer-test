@@ -1,0 +1,12 @@
+{
+    "name": "optional-peer-test",
+    "version": "0.0.1",
+    "description": "Testing npm behavior for installing optional peer dependencies",
+    "scripts": {
+        "test": "npm i --omit=dev && npm ls peer",
+        "clean": "rm -Rdf node_modules && rm package-lock.json"
+    },
+    "dependencies": {
+        "direct": "file:deps/direct"
+    }
+}

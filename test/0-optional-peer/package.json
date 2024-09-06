@@ -1,0 +1,12 @@
+{
+    "name": "optional-peer-test",
+    "version": "0.0.1",
+    "description": "Testing npm behavior for installing optional peer dependencies",
+    "scripts": {
+        "test": "npm i --omit=dev && npm ls @sap/hana-client",
+        "clean": "rm -Rdf node_modules && rm package-lock.json"
+    },
+    "dependencies": {
+        "@sap/hdi": "4.5.2"
+    }
+}

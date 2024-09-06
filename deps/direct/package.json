@@ -1,0 +1,21 @@
+{
+    "name": "direct",
+    "version": "1.0.0",
+    "scripts": {
+      "clean": "rm -Rdf node_modules && rm package-lock.json"
+    },
+    "dependencies": {
+        "indirect": "file:../indirect"
+    },
+    "devDependencies": {
+        "peer": "file:../peer"
+    },
+    "peerDependencies": {
+        "peer": "file:../peer"
+    },
+    "peerDependenciesMeta": {
+        "peer": {
+            "optional": true
+        }
+    }
+}
