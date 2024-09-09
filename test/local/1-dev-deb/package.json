@@ -6,7 +6,7 @@
         "test": "npm i --omit=dev && npm ls peer",
         "clean": "rm -Rdf node_modules && rm package-lock.json"
     },
-    "dependencies": {
-        "direct": "file:deps/direct"
+    "devDependencies": {
+        "peer": "file:../deps/peer/peer-1.0.0.tgz"
     }
 }

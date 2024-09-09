@@ -1,8 +1,8 @@
 {
-    "name": "indirect",
+    "name": "direct",
     "version": "1.0.0",
     "peerDependencies": {
-        "peer": "file:../peer"
+        "peer": "file:../peer/peer-1.0.0.tgz"
     },
     "peerDependenciesMeta": {
         "peer": {
